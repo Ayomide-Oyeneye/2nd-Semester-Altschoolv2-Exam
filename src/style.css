@@ -162,6 +162,7 @@ span {
 }
 @media screen and (max-width: 400px) {
   .linksto{
-    font-size: 48px;
+    font-size: 49px;
+    
   }
 }
