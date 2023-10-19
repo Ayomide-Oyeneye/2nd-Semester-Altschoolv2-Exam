@@ -4,7 +4,8 @@ This is a simple React application that demonstrates the usage of a custom count
 
 ## Features
 
-1. Custom Counter Hook ;
+1. Custom Counter Hooks ;
+
    The custom counter hook, useCounter.js, provides the following functions:
 
 - Increment the counter (increases the number value by 1)
