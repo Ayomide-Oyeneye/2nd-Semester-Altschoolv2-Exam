@@ -97,7 +97,6 @@ h1 {
 .navlink {
   display: flex;
   justify-content: center;
-  border: 2px solid salmon;
 padding-inline-start: 0;
 }
 .links {
@@ -134,8 +133,10 @@ span {
 }
 .appcon {
   margin-top: 4rem;
-  border: 2px solid red;
-  width: fit-content;
+  width: auto;
+}
+.countLink{
+  margin-inline: 5px;
 }
 .errorbtn {
   border: 3px solid rgb(98, 0, 255);

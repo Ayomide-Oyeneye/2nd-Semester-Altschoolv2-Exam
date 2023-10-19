@@ -16,7 +16,7 @@ function App() {
               Home page{" "}
             </Link>
           </li>
-          <li className="links">
+          <li className="links countLink">
             <Link className="linksto" to="/counter">
               Counter page
             </Link>

@@ -10,7 +10,7 @@ function ErrorBoundaryTest() {
   }
   return (
     <div className="errorpagetest">
-      <h1>Error Boundary Test :</h1>
+      <h1>Click here to test the error boundary :</h1>
       <p>
         <button className="errorbtn" onClick={() => setHasError(true)}>
           ErrorBoundary test
