@@ -8,8 +8,6 @@ body {
   font-family: system-ui, sans-serif;
   color: rgba(245, 216, 163, 0.952);
   background-color: rgb(12, 1, 1);
-  display: flex;
-  justify-content: center;
 }
 
 .countContainer {
@@ -89,8 +87,8 @@ h1 {
 }
 .navlink {
   display: flex;
+  justify-content: center;
   border: 2px solid salmon;
-justify-content: space-around;
 padding-inline-start: 0;
 }
 .links {
