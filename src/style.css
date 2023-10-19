@@ -4,11 +4,12 @@
 
 body {
   margin: 0;
-  padding: 1rem;
+  padding: 0;
   font-family: system-ui, sans-serif;
   color: rgba(245, 216, 163, 0.952);
   background-color: rgb(12, 1, 1);
-  width: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .countContainer {
@@ -87,17 +88,13 @@ h1 {
   font-size: 5rem;
 }
 .navlink {
-  display: block;
-  justify-content: center;
+  display: flex;
   border: 2px solid salmon;
-  margin: 0 auto;
-  padding: 0 auto;
+justify-content: space-around;
 }
 .links {
   color: #ffd000;
   background-color: #29d49f;
-  margin-top: 10px;
-  margin-left: 10px;
   width: fit-content;
   padding-inline: 15px;
   padding-block: 10px;
@@ -129,8 +126,7 @@ span {
 }
 .appcon {
   margin-top: 4rem;
-  border: 2px solid rgb(255, 254, 254);
-  min-width: 10%;
+  border: 2px solid red;
 }
 .errorbtn {
   border: 3px solid rgb(98, 0, 255);
