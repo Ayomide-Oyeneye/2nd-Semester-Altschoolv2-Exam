@@ -42,6 +42,15 @@ h1 {
   font-size: large;
   color: rgb(0, 182, 136);
 }
+.a{
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #1c1b1d;
+  padding: 0.5rem;
+  width: fit-content;
+  font-weight: bold;
+  border: 2px solid gray;
+}
 @keyframes border-color-animation {
   0% {
     border-color: #bf80ff;

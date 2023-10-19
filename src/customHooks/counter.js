@@ -21,7 +21,7 @@ function useCounters(initialValue) {
 
 const Counters = () => {
   const { setCounters, counters, increment, decrement, reset } = useCounters(0);
-  const value = useState(0);
+  const [value, setValue ]= useState(0);
 
   return (
     <div className="countContainer">
@@ -39,7 +39,7 @@ const Counters = () => {
         </button>
         <button
           className="increase"
-          onClick={() => setCounters((value) => value + 10)}
+          onClick={() => setCounters((setValue) => setValue + 10)}
         >
           Value
         </button>

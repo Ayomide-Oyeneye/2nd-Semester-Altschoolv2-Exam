@@ -23,11 +23,13 @@ class ErrorBoundary extends Component {
               {" "}
               Something went wrong. <span>😥</span>{" "}
             </h1>
-            <Link to="/">go back</Link>
+            <a className="a" href="/">
+              Back to home page
+            </a>
           </div>
-           <Routes>
-          <Route path="/" element={<Homepage />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+          </Routes>
         </>
       );
     }
