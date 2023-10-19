@@ -57,7 +57,7 @@ npm install
 
 ```
 
-## Initiation
+## Initialization
 
 1. Start the application:
 
