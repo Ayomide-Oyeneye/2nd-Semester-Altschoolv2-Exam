@@ -74,7 +74,6 @@ h1 {
 .homepage {
   text-align: center;
   font-size: 48px;
-  width: auto;
 }
 .errorpagetest {
   text-align: center;
@@ -105,10 +104,9 @@ h1 {
   justify-content: center;
 padding-inline-start: 0;
 background-color: #29d49f;
+width: auto;
 }
 .links {
-  color: #ffd000;
-  width: fit-content;
   padding-inline: 15px;
   padding-block: 30px;
   border-radius: 0.6rem;
@@ -161,4 +159,9 @@ span {
   margin-block-start: 5rem;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 400px) {
+  .linksto{
+    font-size: 48px;
+  }
 }
