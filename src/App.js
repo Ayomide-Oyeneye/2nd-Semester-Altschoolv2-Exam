@@ -8,7 +8,7 @@ import ErrorBoundary from "./routes/ErrorBoundary";
 import ErrorBoundaryTest from "./routes/ErrorBoundaryTest";
 function App() {
   return (
-    <>
+    <div className="appcon">
       <ErrorBoundary>
         <ul className="navlink">
           <li className="links">
@@ -35,7 +35,7 @@ function App() {
           <Route path="/error" element={<ErrorBoundaryTest />} />
         </Routes>
       </ErrorBoundary>
-    </>
+    </div>
   );
 }
 export default App;
