@@ -87,7 +87,7 @@ h1 {
   font-size: 5rem;
 }
 .navlink {
-  display: flex;
+  display: block;
   justify-content: center;
   border: 2px solid salmon;
 }
