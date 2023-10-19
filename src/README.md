@@ -7,10 +7,10 @@ This is a simple React application that demonstrates the usage of a custom count
 1. Custom Counter Hook ;
    The custom counter hook, useCounter.js, provides the following functions:
 
-- Increment the counter (increases the number value)
-- Decrement the counter (decreases the number value)
+- Increment the counter (increases the number value by 1)
+- Decrement the counter (decreases the number value by 1)
 - Reset the counter (reset the number value to 0)
-- Set a specific value for the counter
+- Set a specific value for the counter to 10
 - 404 Page
 - Error boundary testing
 
