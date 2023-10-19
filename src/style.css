@@ -90,6 +90,7 @@ h1 {
   display: block;
   justify-content: center;
   border: 2px solid salmon;
+  margin: 0 auto;
 }
 .links {
   color: #ffd000;
