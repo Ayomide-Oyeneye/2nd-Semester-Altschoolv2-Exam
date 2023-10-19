@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "../style.css";
+import Homepage from "./homepage";
 class ErrorBoundary extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +23,11 @@ class ErrorBoundary extends Component {
               {" "}
               Something went wrong. <span>😥</span>{" "}
             </h1>
+            <Link to="/">go back</Link>
           </div>
+           <Routes>
+          <Route path="/" element={<Homepage />} />
+        </Routes>
         </>
       );
     }
