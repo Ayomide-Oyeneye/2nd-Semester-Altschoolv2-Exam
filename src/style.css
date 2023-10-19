@@ -89,6 +89,7 @@ h1 {
 .navlink {
   display: flex;
   justify-content: center;
+  border: 2px solid salmon;
 }
 .links {
   color: #ffd000;
