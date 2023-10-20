@@ -110,7 +110,7 @@ h1 {
 }
 .links {
   padding-inline: 15px;
-  padding-block: 40px;
+  padding-block: 25px;
   border-radius: 0.6rem;
   list-style: none;
 }
@@ -167,18 +167,20 @@ span {
     font-size: 50px;
   }
 .increase{
-  font-size: 40px;
-  padding: 10px;
+  font-size: 45px;
+  padding: 15px;
   margin: 10px;
 }
 .numCount{
   font-size: 4rem;
+  margin-bottom: 50px;
 }
 .countContainer h1{
   font-size: 3rem;
 }
 .countContainer{
   max-width: 90%;
-
+max-height: 100%;
+padding-block: 1rem;
 }
 }
