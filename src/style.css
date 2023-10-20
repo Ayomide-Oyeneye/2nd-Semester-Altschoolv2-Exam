@@ -204,4 +204,10 @@ span {
     font-size: 8rem;
     margin-block:0 ;
    }
+   .mainpage h1:nth-child(1){
+    margin-block-end: 0;
+   }
+   .mainpage h1:nth-child(3){
+    margin-block-start: 0;
+   }
 }
