@@ -177,4 +177,8 @@ span {
 .countContainer h1{
   font-size: 3rem;
 }
+.countContainer{
+  max-width: 90%;
+
+}
 }
