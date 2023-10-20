@@ -110,8 +110,15 @@ h1 {
 .links {
   padding-inline: 15px;
   padding-block: 25px;
+  padding-block-start: 10px;
   border-radius: 0.6rem;
   list-style: none;
+}
+.linksto:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #7d15f5;
+  text-shadow: 0 0 5px #390053;
+  color: rgb(18, 2, 48);
 }
 .linksto {
   text-decoration: none;
@@ -163,21 +170,23 @@ span {
 }
 @media screen and (min-width: 500px) {
   .linksto {
-    font-size: 50px;
+    font-size: 40px;
   }
-.increase{
-  font-size: 45px;
-  padding: 5px;
-  margin: 10px;
-}
-.numCount{
-  font-size: 4rem;
-  margin-bottom: 50px;
-}
-.countContainer h1{
-  font-size: 3rem;
-}
-.countContainer{
-padding-block: 1rem;
-}
+  .increase {
+    font-size: 40px;
+    padding: 5px;
+    margin: 10px;
+  }
+  .numCount {
+    font-size: 4rem;
+    margin-bottom: 50px;
+  }
+  .countContainer h1 {
+    font-size: 3rem;
+  }
+  .countContainer {
+    padding: 0;
+    padding-block: 1rem;
+    max-width: 70%;
+  }
 }
