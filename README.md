@@ -12,7 +12,7 @@ This is a simple React application that demonstrates the usage of a custom count
 - Increment the counter (increases the number value by 1)
 - Decrement the counter (decreases the number value by 1)
 - Reset the counter (reset the number value to 0)
-- Set a specific value for the counter to 10
+- Adds a specific value to the counter
 - 404 Page
 - Error boundary testing
 
