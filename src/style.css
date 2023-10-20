@@ -172,9 +172,9 @@ span {
   .linksto {
     font-size: 40px;
   }
-  .increase {
+  .increase,.errorbtn {
     font-size: 40px;
-    padding: 5px;
+    padding: 15px;
     margin: 10px;
   }
   .numCount {
@@ -188,5 +188,11 @@ span {
     padding: 0;
     padding-block: 1rem;
     max-width: 70%;
+  }
+  .errorpagetest h1,.homepage {
+    font-size: 4rem;
+  }
+  .errorbtn{
+
   }
 }
