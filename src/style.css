@@ -189,10 +189,12 @@ span {
     padding-block: 1rem;
     max-width: 70%;
   }
-  .errorpagetest h1,.homepage {
+  .errorpagetest h1,.homepage,.errorpage {
     font-size: 4rem;
   }
-  .errorbtn{
-
+  .a{
+    font-size: 30px;
+    padding: 10px;
+    margin: 0 auto;
   }
 }
