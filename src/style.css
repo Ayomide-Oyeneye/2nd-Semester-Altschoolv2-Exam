@@ -84,6 +84,9 @@ h1 {
 .numCount {
   font-size: 3rem;
   font-weight: 600;
+  height: fit-content;
+  margin: 0;
+  margin-bottom: 10px;
   color: rgba(253, 101, 0, 0.89);
 }
 .mainpage {
@@ -166,5 +169,12 @@ span {
 .increase{
   font-size: 40px;
   padding: 10px;
+  margin: 10px;
+}
+.numCount{
+  font-size: 4rem;
+}
+.countContainer h1{
+  font-size: 3rem;
 }
 }
