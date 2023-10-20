@@ -197,4 +197,11 @@ span {
     padding: 10px;
     margin: 0 auto;
   }
+  .mainpage h1{
+   font-size: 6rem;
+  }
+  .mainpage h1:nth-child(2){
+    font-size: 8rem;
+    margin-block:0 ;
+   }
 }
