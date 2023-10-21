@@ -101,11 +101,13 @@ h1 {
   font-size: 5rem;
 }
 .navlink {
-  display: flex;
-  justify-content: space-around;
   padding-inline-start: 0;
   background-color: #29d49f;
-  width: auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .links {
   padding-inline: 15px;
@@ -113,6 +115,7 @@ h1 {
   padding-block-start: 18px;
   border-radius: 0.6rem;
   list-style: none;
+  width: fit-content;
 }
 .linksto:hover {
   -webkit-text-stroke-width: 1px;
@@ -125,6 +128,7 @@ h1 {
   font-weight: 600;
   color: #ffffff;
   font-size: 32px;
+  width: fit-content;
 }
 .home {
   color: #4e4e52;

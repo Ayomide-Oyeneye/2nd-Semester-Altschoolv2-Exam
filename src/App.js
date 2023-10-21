@@ -28,10 +28,10 @@ function App() {
           </li>
         </ul>
         <Routes>
-          <Route path="*" element={<FourzeroFourPage />} />
           <Route path="/" element={<Homepage />} />
           <Route path="/counter" element={<Counters />} />
           <Route path="/error" element={<ErrorBoundaryTest />} />
+          <Route path="*" element={<FourzeroFourPage />} />
         </Routes>
       </ErrorBoundary>
     </div>
